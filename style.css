@@ -1,0 +1,82 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: Open Sans, Segoe UI, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 2em;
+}
+
+.container{
+  position:absolute;
+  top:0; left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  vertical-align:center;
+  align-items: center;
+  background-size:contain;
+}
+
+
+.now-playing, .not-playing{
+  margin-top:-100px;
+  padding:4em 2em;
+  background-color: rgba(0, 0, 0, .5);
+  max-width:600px;
+  display:none;
+  background-position:center;
+}
+
+.not-playing{
+  background:#000;
+}
+
+.not-playing h1, .now-playing h1{
+  text-align:center;
+  font-size:2.4em;
+  margin:0;
+  text-shadow:0 0 20px #fff;
+  color:#fff;
+  font-style:italic;
+}
+
+.not-playing h3, .now-playing h3{
+  font-size:2em; margin:.5em 1em;
+  text-align:center;
+  color:#fff;
+}
+
+h4{
+  font-size:1em;
+  color:#fff;
+  text-align:center;
+}
+
+.check{
+  position:fixed;
+  bottom:0;
+  padding:1em;
+  width:100%;
+  text-align:center;
+}
+
+.check button{
+  mix-blend-mode:difference;
+  color:#fff;
+  font-size:2em;
+  padding:2em;
+  -webkit-transition: all .3s linear;
+-moz-transition: all .3s linear;
+-ms-transition: all .3s linear;
+-o-transition: all .3s linear;
+transition: all .3s linear;
+  background:0;
+  border:0;
+}
+.check button:hover{
+  text-shadow:0 0 20px #000;
+  color:yellow;
+}
