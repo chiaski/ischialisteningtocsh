@@ -6,6 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 2em;
+  background:#000;
 }
 
 .container{
@@ -26,7 +27,7 @@ body {
   padding:4em 2em;
   background-color: rgba(0, 0, 0, .5);
   max-width:600px;
-  display:none;
+
   background-position:center;
 }
 

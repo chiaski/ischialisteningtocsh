@@ -25,9 +25,9 @@ console.log("hi");
         $(".now-title").text(music.track[0].name);
 
         if (music.track[0]["@attr"]) {
-          $(".now-text").text("She is now listening to");
+          $(".now-text").text("They are now listening to");
         } else {
-          $(".now-text").text("She last listened to");
+          $(".now-text").text("They last listened to");
         }
 
         $(".now-playing").fadeIn("slow");
